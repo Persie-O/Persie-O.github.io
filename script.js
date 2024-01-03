@@ -46,11 +46,11 @@ const workInfo3 = {
 };
 
 const workInfo4 = {
-  myRecentPr: 'Simple Shell commandline',
+  myRecentPr: 'Simple Shell',
   seeProject: 'See Project',
   bgImg: '#',
-  prTitle1: 'Simple Shell commandline',
-  prTitle2: 'Simple Shell commandline',
+  prTitle1: 'Simple Shell',
+  prTitle2: 'Simple Shell',
   prDesc: 'Is a simple shell command line that covers the basics of how a shell interacts with the underlying operating system. It provides a foundation for understanding shell functionalities and system programming concepts. This project also encourages learners to gain practical experience in working with system calls, processes, and signals in a Unix-like environment.',
   techList: ['C'],
 };
