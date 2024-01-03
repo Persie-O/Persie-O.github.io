@@ -104,7 +104,7 @@ Clone this repository to your desired folder:
 ### Deployment
 
 You can deploy this project using:
-[LIVE DEMO](https://codewithhyder.github.io/portfolionew/)
+[LIVE DEMO](https://Persie-O.github.io/)
 
 
 github
@@ -116,11 +116,11 @@ github
 ## 👥 Author <a name="authors"></a>
 
 
-👤 Hyder
+👤 Persie
 
-- GitHub: [@CodeWithHyder](https://github.com/codeWithHyder)
-- Twitter: [@hyder](https://twitter.com/@hyder3512)
-- LinkedIn: [Hyder](https://linkedin.com/in/https://www.linkedin.com/in/ghulam-hyder-dar-165653206?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bb%2FezSQOCSmG9eV79rGAzQQ%3D%3D)
+- GitHub: [@CodeWithHyder](https://github.com/Persie-O)
+- Twitter: [@hyder](https://twitter.com/@Persie697)
+- LinkedIn: [Hyder](https://linkedin.com/in/https://www.linkedin.com/in/pascal20239)
 
 
 
