@@ -118,9 +118,9 @@ github
 
 👤 Persie
 
-- GitHub: [@CodeWithHyder](https://github.com/Persie-O)
-- Twitter: [@hyder](https://twitter.com/@Persie697)
-- LinkedIn: [Hyder](https://linkedin.com/in/https://www.linkedin.com/in/pascal20239)
+- GitHub: [@Pascsl](https://github.com/Persie-O)
+- Twitter: [@Pesie-O](https://twitter.com/@Persie697)
+- LinkedIn: [Pascal](https://linkedin.com/in/https://www.linkedin.com/in/pascal20239)
 
 
 
