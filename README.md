@@ -118,8 +118,8 @@ github
 
 👤 Persie
 
-- GitHub: [@Pascsl](https://github.com/Persie-O)
-- Twitter: [@Pesie-O](https://twitter.com/@Persie697)
+- GitHub: [@Pascal](https://github.com/Persie-O)
+- Twitter: [@Pesie697](https://twitter.com/@Persie697)
 - LinkedIn: [Pascal](https://linkedin.com/in/https://www.linkedin.com/in/pascal20239)
 
 
