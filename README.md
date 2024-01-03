@@ -51,10 +51,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolionew <a name="about-project"></a>
+# 📖 Portfolio <a name="about-project"></a>
 
 
-**Portfolionew** is a webspace intended to keep track of all my projects, detailing the tech stacks that I used as well as a metric to measure my progress as a developer.
+**Portfolio** is a webspace intended to keep track of all my projects, detailing the tech stacks that I used as well as a metric to measure my progress as a developer.
 
 ## 🛠 Built With <a name="built-with"></a>
 
