@@ -51,7 +51,7 @@ const workInfo4 = {
   bgImg: '#',
   prTitle1: 'Simple Shell commandline',
   prTitle2: 'Simple Shell commandline',
-  prDesc: 'Is a simple shell command line that covers the basics of how a shell interacts with the underlying operating system. It provides a foundation for understanding more advanced shell functionalities and system programming concepts. The project also encourages students or learners to gain practical experience in working with system calls, processes, and signals in a Unix-like environment.',
+  prDesc: 'Is a simple shell command line that covers the basics of how a shell interacts with the underlying operating system. It provides a foundation for understanding shell functionalities and system programming concepts. This project also encourages learners to gain practical experience in working with system calls, processes, and signals in a Unix-like environment.',
   techList: ['C'],
 };
 
