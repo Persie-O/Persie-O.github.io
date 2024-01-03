@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/085384e239.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" as="style">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@300&family=Roboto:wght@500;700&display=swap"
+            rel="stylesheet">
+            
+
+</head>
+
+<body>
+<main>
+    <!----------navbar setion------------------->
+    <header>
+    <nav class="nav-container" id="header-section">
+       
+        <a class="Johnd" href="index.html">Persie</a>
+        <a class="menu" href="#" onclick="displayPopUp()"></a>
+        <ul class="menu-items">
+            <li><a href="#my-works">Portfolio</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#contactform">Contact</a></li>
+            <li><a href="#"><img src="./images/msg.png"></a></li>
+        </ul>
+    </nav>
+    <ul class="popup-menu" id="popup-menu-id">
+        <li class="cross" id="cross-id"><a href=""><img src="./images/cross.png" onclick="closePopUp()"></a></li>
+        <li id="portFolio-id" ><a href="#my-works" onclick="closePopUp()">Portfolio</a></li>
+        <li id="aboutMe-id" ><a href="#about-me" onclick="closePopUp()">About</a></li>
+        <li id="contactMe-id"><a href="#contactform" onclick="closePopUp()">Contact</a></li>
+    </ul>
+    </header>
+    
+    <!--------------Hero section------------------------------------------->
+    <section>
+    <div class="hero-section" id="hero-section">
+            <div class="hero-right">
+                <h1>Hi There.<br>I am <b>Pascal</b></h1>
+                <h5>A Certified Full Stack Web Developer</h5>
+                <p>I can help you build a product , feature or website. Look through some of my work and experience! If
+                    you like what you
+                    see and have a project you need coded,
+                    don’t hesitate to <a href="#contactform">contact me.</a></p>
+            </div>
+            <nav class="hero-left">
+                <ul>
+                <li><a href="https://github.com/Persie-O"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/pascal20239/"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://twitter.com/@Persie697"><i class="fa-brands fa-twitter"></i></a></li>
+                <!-- <li><a href="#"><i class="fa-solid fa-m"></i></a></li> -->
+                </ul>
+            </nav>
+    </div>
+    </section>
+
+    <!------------------myworks will go here from js---------------------------------------->
+     
+    <!------------------about me------------------------------------------------>
+    <div class="aboutme-container" id="about-me">
+              <div class="aboutme-row1">
+                    <div class="aboutme-left">
+                    <h4>About me</h4>
+                    <p>Hey there! I can help you build a product, feature or website. Look through some of my work and
+                        experience! If you like
+                        what you see and have a project you need coded, don’t hesitate to contact me.</p>
+                        <button type="button" class="gr"><a href="./resume.pdf" download>Get My Resume</a></button>
+                  </div>
+                  <div class="aboutme-right">
+                    
+                  </div>
+               </div>
+        <div class="hline">
+            <hr>
+        </div>
+
+        <div class="aboutme-row2">
+            <ul>
+                    <li class="aboutme-tech"><div class="bullet"><img src="./images/diamond.png">Language</div> 
+                        <ul>
+                            <li>Python</li>
+                            <li>C</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            
+                        </ul>
+                    </li>
+                <li class="aboutme-tech"><div class="bullet"><img src="./images/square.png">Frameworks</div> 
+                    <ul>
+                        <li>Django</li>
+                        <li>Flask</li>
+                        <li>React</li>
+                    </ul>
+                </li>
+                <li class="aboutme-tech"><div class="bullet"><img src="./images/circle.png">Skills</div> 
+                    <ul>
+                        <li>Github</li>
+                        <li>Web Development</li>
+                        <li>Coding</li>
+                        <li>Bash</li>
+                    </ul>
+                </li>
+            
+           
+            </ul>
+        </div>
+
+    </div>
+   <!--- --->
+
+<!---------  contact form ------------------------------------->
+<div>
+    <form action="https://formspree.io/f/xwkgkqkb"  method="post" id="contactform">
+        <ul class="contact-ul">
+        <div class="contact-left">
+          <li><h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2></li><br>
+        </div>
+        <div class="contact-right"> 
+                <li><input type="text" name="user-name" id="user-name" placeholder="Full name" required maxlength="30"></li>
+                <li><input type="email" name="email" id="email" placeholder="Email address" required></li>
+                <li><textarea name="message" id="message" maxlength="500" placeholder="Enter text here" required></textarea></li>
+                <li><button type="submit" id="get-in-touch" name="get-in-touch">Get in touch</button></li>
+                <span class="errmsg"></span>
+            </div>
+        </ul>
+    </form>  
+</div>
+
+<!----------------------------- footer--------------------->
+<footer id="footer-id">
+    <ul class="ftr">
+      <!-- <li><a href="#"><img src="./images/A.png"></a></li> -->
+      <li><a href="https://github.com/Persie-O"><img src="./images/G.png"></a></li>
+      <li><a href="https://www.linkedin.com/in/pascal20239/"><img src="./images/in.png"></a></li>
+      <li><a href="https://twitter.com/@Persie697"><img src="./images/T.png"></a></li>
+      <!-- <li><a href="#"><img src="./images/M.png"></a></li> -->
+    </ul>
+</footer>    
+</main>
+<script src="script.js"></script>
+    </body>
+</html>
